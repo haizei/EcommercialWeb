@@ -345,3 +345,27 @@
 .review .active{color: #317DE6;font-weight: bold;border-bottom: #317DE6 solid 2px;margin-bottom: -2px;position: relative;}
 .review_sort{height: 20px;float: right;}
 .review_sort a{display: inline-block;line-height: 20px;  height: 20px;border:solid 1px #CCC;float: right}
+
+
+/*评论结果*/
+.review_list{padding-top:18px;}
+.review_userHead{width:170px;float: left;}
+.review_user{width:60px;text-align: center;margin-left: 40px;}
+.review_user img{width:60px;height: 60px;display: block;}
+.review_user p{line-height: 20px;}
+.review_cont{float:left;display: block;width:500px;}
+.review_t{line-height:24px;}
+.review_cont p{line-height: 30px;}
+.starsBox .star{margin-top:1px;}
+.starsBox .star{  width:13px;height: 12px; overflow: hidden; background: url('../image/star.jpg') left center no-repeat;display: inline-block;}
+.stars_text{font-weight: bold;padding-left: 10px;}
+
+/*分页*/
+.page{text-align: center;position:relative;z-index:2;}
+.page a{height:24px;display: inline-block;line-height: 24px;border:#CCC solid 1px;padding:0 12px;margin: 0 2px;}
+.page .hl{display:inline-block;padding:0 12px;margin:0px 2px;}
+.morePage{padding-left: 14px;display:inline-block;height: 24px;line-height: 24px;}
+.pageNum{width:29px;padding:0 3px;border:#ccc solid 1px;height: 24px;line-height: 24px\9;text-align: center;margin-left: 4px;}
+.page_btn{width:44px;height:24px;line-height: 24px;background-color: #E8E8E8;border:#CCC solid 1px;}
+.ye{padding:0 8px 0 6px;}
+.page a,.page span,.page input{vertical-align: middle;position: relative}

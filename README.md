@@ -1007,5 +1007,85 @@ rightArea
 
 * 这里和上面不同的地方在于需要给screening_more设置边框
 
+###评论导航
+![Mou icon](./Ecomicial_img/talk.jpg)
 
+####HTML
+```
+    	<div class="review_list clearfix">
+        <div class="review_userHead">
+            <div class="review_user">
+                <img src ="image/girl.jpg" alt="">
+                <p>61...42</p>
+                <p>金色会员</p>
+            </div>
+        </div>
+        <div class="review_cont">
+            <div class="review_t">
+                <div class="starsBox">
+                    <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+                    <span class="stars_text">5分 满意</span>
+                </div>
+                <p>文字内容部分</p>
+                <p><a href="#" class="ding">顶(0)</a><a href="#" class="cai">踩(0)</a></p>
+            </div>
+        </div>
+    </div>
+```
+结构：
+
+```
+	review_list
+		review_userHead  左边的头像
+			review_user
+				img
+				p
+				p
+		review_cont        右边的聊天内容
+			review_t
+				starsBox
+				p
+```
+
+####CSS
+```
+.review_list{padding-top:18px;}
+.review_userHead{width:170px;float: left;}
+.review_user{width:60px;text-align: center;margin-left: 40px;}
+.review_user img{width:60px;height: 60px;display: block;}
+.review_user p{line-height: 20px;}
+.review_cont{float:left;display: block;width:500px;}
+.review_t{line-height:24px;}
+.review_cont p{line-height: 30px;}
+.starsBox .star{margin-top:1px;}
+.starsBox .star{  width:13px;height: 12px; overflow: hidden; background: url('../image/star.jpg') left center no-repeat;display: inline-block;}
+.stars_text{font-weight: bold;padding-left: 10px;}
+```
+
+###评论导航
+![Mou icon](./Ecomicial_img/pageing.jpg)
+
+####HTML
+```
+	<div class="page">
+        <a href="#">上一页</a>
+        <a href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><a href="#">6</a><a href="#">7</a>
+        <a href="#">200</a>
+        <a href="#">下一页</a>
+        <span class="morePage">共200页, 到第</span>
+        <input type="text" class="pageNum">页<input type="button" value="确认" class="page_btn">
+    </div>
+```
+
+####CSS
+```
+.page{text-align: center;position:relative;z-index:2;}
+.page a{height:24px;display: inline-block;line-height: 24px;border:#CCC solid 1px;padding:0 12px;margin: 0 2px;}
+.page .hl{display:inline-block;padding:0 12px;margin:0px 2px;}
+.morePage{padding-left: 14px;display:inline-block;height: 24px;line-height: 24px;}
+.pageNum{width:29px;padding:0 3px;border:#ccc solid 1px;height: 24px;line-height: 24px\9;text-align: center;margin-left: 4px;}
+.page_btn{width:44px;height:24px;line-height: 24px;background-color: #E8E8E8;border:#CCC solid 1px;}
+.ye{padding:0 8px 0 6px;}
+.page a,.page span,.page input{vertical-align: middle;position: relative}
+```
 
