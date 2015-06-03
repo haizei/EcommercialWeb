@@ -219,6 +219,10 @@
     padding-left:10px;
 }
 
+.select h3{
+    font-size: 10px; font-family: "Microsoft YaHei", "微软雅黑";font-weight: normal;
+}
+
 /**商品排列**/
 .screening_go .item{  width: 33%;  text-align: center;  }
 .screening_go .money{}
@@ -369,3 +373,30 @@
 .page_btn{width:44px;height:24px;line-height: 24px;background-color: #E8E8E8;border:#CCC solid 1px;}
 .ye{padding:0 8px 0 6px;}
 .page a,.page span,.page input{vertical-align: middle;position: relative}
+
+/*购物车*/
+.stepBox{width:396px; padding-top:26px;}
+.step{background:url(../image/step.jpg) left top no-repeat; height:19px;}
+.step_text{color:#FFF; font-size:12px; line-height:30px;}
+.step_text li{float:left;}
+.s01,.s03{width:30%;}
+.s02{width:40%; text-align:center;}
+.s03{text-align:right;}
+.step_text .active{color:#F3E402; font-weight:bold;}
+
+/*购物车 面板内容*/
+.shoppingCart{padding-top:10px;}
+.shopping_item{border:#ccc solid 1px;}
+.shopping_tit{height:31px; background:url(../image/shopping_bg.jpg) left top repeat-x;  color:#444444; font:16px/31px "Microsoft YaHei", "微软雅黑"; text-indent:12px; border-bottom:#E3E3E3 solid 1px;}
+.padding_shop{padding:25px 30px;}
+.shopping_list_text{float:left; width:76px; line-height:24px;}
+.cart_tel,.input{vertical-align:middle;}
+.cart_tel{display:inline-block; height:24px; line-height:24px;}
+.shopping_list li{height:24px; margin-bottom:10px;}
+.shopping_list_text em{color:#F30; font-style:normal; margin-right:5px;}
+.input{height:22px; line-height:22px\9; border:#CCC solid 1px; padding:0 6px; width:110px;}
+.input_b{width:392px;}
+.input_s{width:64px;}
+.input_s2{width:84px;}
+.jian{padding:0 3px;}
+.affirm{width:114px; height:28px;  background:url(../image/sh_btn.jpg) left top no-repeat;}
